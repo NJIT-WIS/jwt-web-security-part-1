@@ -1,0 +1,52 @@
+2022-07-16 22:05:23,936 [ERROR] app: Exception on /register/ [GET]
+Traceback (most recent call last):
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/app/authentication/__init__.py", line 12, in register
+    result = db.session.query(User).count()
+AttributeError: module 'app.db' has no attribute 'session'
+2022-07-16 22:05:47,700 [ERROR] app: Exception on /register/ [GET]
+Traceback (most recent call last):
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/app/authentication/__init__.py", line 12, in register
+    result = db.query(User).count()
+AttributeError: module 'app.db' has no attribute 'query'
+2022-07-16 22:06:23,556 [ERROR] app: Exception on /register/ [GET]
+Traceback (most recent call last):
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/app/authentication/__init__.py", line 12, in register
+    result = db.session.execute.query(User).count()
+AttributeError: module 'app.db' has no attribute 'session'
+2022-07-16 22:08:22,059 [ERROR] app: Exception on /register/ [GET]
+Traceback (most recent call last):
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/venv/lib/python3.10/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/keithwilliams/PycharmProjects/heroku_deploy_flask/app/authentication/__init__.py", line 12, in register
+    result = User.query().count()
+TypeError: 'BaseQuery' object is not callable

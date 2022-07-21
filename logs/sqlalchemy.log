@@ -1,0 +1,2421 @@
+2022-07-16 22:09:27,260 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-16 22:09:27,265 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-16 22:09:27,265 [INFO] sqlalchemy.engine.Engine: [generated in 0.00030s] ()
+2022-07-16 22:09:27,268 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-16 22:11:38,868 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-16 22:11:38,872 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-16 22:11:38,873 [INFO] sqlalchemy.engine.Engine: [generated in 0.00086s] ()
+2022-07-16 22:11:38,876 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:01:35,053 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:01:35,058 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:01:35,058 [INFO] sqlalchemy.engine.Engine: [generated in 0.00033s] ()
+2022-07-18 17:01:35,297 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:07:16,129 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:07:16,133 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:07:16,134 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ()
+2022-07-18 17:07:16,375 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (email, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-18 17:07:16,375 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('admin', b'$2b$12$SWI9JtaYOEKdQqbbbpU9zuxo6bgRw9SyKzRYA2h0ZExyz93WWwPdu', None, 0, '2022-07-18 21:07:16.374066', 1)
+2022-07-18 17:07:16,378 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-18 17:15:35,284 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:15:35,289 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:15:35,289 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ()
+2022-07-18 17:15:35,291 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:17:37,342 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:17:37,346 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:17:37,346 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ()
+2022-07-18 17:17:37,347 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:20:30,764 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:20:30,769 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:20:30,769 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ()
+2022-07-18 17:20:30,772 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:20:45,324 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:20:45,328 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:20:45,328 [INFO] sqlalchemy.engine.Engine: [generated in 0.00023s] ()
+2022-07-18 17:20:45,329 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:21:03,302 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:21:03,306 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:21:03,306 [INFO] sqlalchemy.engine.Engine: [generated in 0.00031s] ()
+2022-07-18 17:21:03,307 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:22:29,867 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:22:29,871 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:22:29,871 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ()
+2022-07-18 17:22:29,874 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:23:51,101 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:23:51,105 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:23:51,105 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ()
+2022-07-18 17:23:51,107 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-18 17:24:41,971 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-18 17:24:41,974 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-18 17:24:41,975 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] ()
+2022-07-18 17:24:42,216 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-18 17:24:42,217 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('myusername', b'$2b$12$DeUdZVumUj/AM9dQDrZLBe.JhlQTZmHqKSKxm6txUuiBgE6FbHxXS', None, 0, '2022-07-18 21:24:42.215822', 1)
+2022-07-18 17:24:42,217 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 15:46:21,885 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:46:21,889 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 15:46:21,889 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ()
+2022-07-20 15:46:21,893 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 15:46:21,893 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ('myusername', 1, 0)
+2022-07-20 15:46:21,894 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 15:47:24,966 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:47:24,972 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 15:47:24,972 [INFO] sqlalchemy.engine.Engine: [generated in 0.00034s] ()
+2022-07-20 15:47:24,978 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 15:47:24,978 [INFO] sqlalchemy.engine.Engine: [generated in 0.00037s] ('myusername', 1, 0)
+2022-07-20 15:47:24,979 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 15:47:44,147 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:47:44,152 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 15:47:44,152 [INFO] sqlalchemy.engine.Engine: [generated in 0.00034s] ()
+2022-07-20 15:47:44,154 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 15:47:44,155 [INFO] sqlalchemy.engine.Engine: [generated in 0.00044s] ('mysername', 1, 0)
+2022-07-20 15:47:44,396 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 15:47:44,396 [INFO] sqlalchemy.engine.Engine: [generated in 0.00037s] ('mysername', b'$2b$12$YuZPU/XhRU69a1f1M4POhejstO5L6fPfejiCv1b2X06NGEMpacep2', None, 0, '2022-07-20 19:47:44.394496', 0)
+2022-07-20 15:47:44,400 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 15:49:12,721 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:49:12,725 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 15:49:12,726 [INFO] sqlalchemy.engine.Engine: [generated in 0.00058s] ()
+2022-07-20 15:49:12,731 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 15:49:12,731 [INFO] sqlalchemy.engine.Engine: [generated in 0.00040s] ('mysername', 1, 0)
+2022-07-20 15:49:12,973 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 15:49:12,974 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('mysername', b'$2b$12$MtJU6NMIm3b0X8.t9zr1wOY1bXiamoK47c4XGxCsly5awgzayZJr.', None, 0, '2022-07-20 19:49:12.971822', 0)
+2022-07-20 15:49:12,974 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 15:49:12,984 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:49:12,985 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 15:49:12,985 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('mysername', 1, 0)
+2022-07-20 15:49:13,218 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 15:49:13,218 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 2)
+2022-07-20 15:49:13,218 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 15:49:13,221 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:49:13,222 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-07-20 15:49:13,222 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] (2,)
+2022-07-20 15:49:13,224 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 15:50:13,706 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:50:13,710 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 15:50:13,711 [INFO] sqlalchemy.engine.Engine: [generated in 0.00042s] ()
+2022-07-20 15:50:13,715 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 15:50:13,715 [INFO] sqlalchemy.engine.Engine: [generated in 0.00030s] ('myserme', 1, 0)
+2022-07-20 15:50:13,952 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 15:50:13,952 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('myserme', b'$2b$12$fjHexYQ57wdyvje0q/wHXu5otgKYGvbgMU0G3PMfv9Mfcu0ZPV/i2', None, 0, '2022-07-20 19:50:13.951719', 0)
+2022-07-20 15:50:13,953 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 15:50:13,967 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 15:50:13,968 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 15:50:13,968 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] ('mysername', 1, 0)
+2022-07-20 15:50:14,197 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:09:26,919 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:09:26,923 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:09:26,923 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ()
+2022-07-20 16:09:26,927 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:09:26,928 [INFO] sqlalchemy.engine.Engine: [generated in 0.00045s] ('myserme', 1, 0)
+2022-07-20 16:09:26,929 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:09:27,005 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:09:27,006 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:09:27,006 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('mysername', 1, 0)
+2022-07-20 16:09:27,241 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:14:07,367 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:14:07,372 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:14:07,373 [INFO] sqlalchemy.engine.Engine: [generated in 0.00033s] ()
+2022-07-20 16:14:07,377 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:14:07,377 [INFO] sqlalchemy.engine.Engine: [generated in 0.00032s] ('myserme', 1, 0)
+2022-07-20 16:14:07,378 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:14:07,450 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:14:07,451 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:14:07,452 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('mysername', 1, 0)
+2022-07-20 16:14:07,680 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:14:24,351 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:14:24,356 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:14:24,356 [INFO] sqlalchemy.engine.Engine: [generated in 0.00038s] ()
+2022-07-20 16:14:24,359 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:14:24,360 [INFO] sqlalchemy.engine.Engine: [generated in 0.00059s] ('myserme', 1, 0)
+2022-07-20 16:14:24,361 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:14:24,434 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:14:24,435 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:14:24,435 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('mysername', 1, 0)
+2022-07-20 16:14:24,665 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:14:45,547 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:14:45,551 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:14:45,551 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ()
+2022-07-20 16:14:45,553 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:14:45,554 [INFO] sqlalchemy.engine.Engine: [generated in 0.00023s] ('myserme', 1, 0)
+2022-07-20 16:14:45,554 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:14:45,628 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:14:45,629 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:14:45,629 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('mysername', 1, 0)
+2022-07-20 16:14:45,859 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:17:00,642 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:17:00,646 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:17:00,646 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ()
+2022-07-20 16:17:00,648 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:17:00,648 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('myserme', 1, 0)
+2022-07-20 16:17:00,649 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:17:00,723 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:17:00,724 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:17:00,724 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('mysername', 1, 0)
+2022-07-20 16:17:00,954 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:41:59,003 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:41:59,008 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:41:59,009 [INFO] sqlalchemy.engine.Engine: [generated in 0.00034s] ()
+2022-07-20 16:41:59,013 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:41:59,014 [INFO] sqlalchemy.engine.Engine: [generated in 0.00034s] ('myserme', 1, 0)
+2022-07-20 16:41:59,015 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:41:59,087 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:41:59,088 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:41:59,088 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('mysername', 1, 0)
+2022-07-20 16:41:59,319 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:42:29,396 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:42:29,402 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:42:29,402 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ()
+2022-07-20 16:42:29,407 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:42:29,407 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('myserme', 1, 0)
+2022-07-20 16:42:29,408 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:42:29,480 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:42:29,481 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:42:29,481 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('mysername', 1, 0)
+2022-07-20 16:42:29,713 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:43:47,095 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:43:47,100 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:43:47,100 [INFO] sqlalchemy.engine.Engine: [generated in 0.00030s] ()
+2022-07-20 16:43:47,105 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:43:47,106 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('myserme', 1, 0)
+2022-07-20 16:43:47,106 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:43:47,182 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:43:47,183 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:43:47,183 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('mysername', 1, 0)
+2022-07-20 16:43:47,414 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:51:38,217 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:51:38,222 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:51:38,222 [INFO] sqlalchemy.engine.Engine: [generated in 0.00033s] ()
+2022-07-20 16:51:38,225 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:51:38,225 [INFO] sqlalchemy.engine.Engine: [generated in 0.00041s] ('myserme', 1, 0)
+2022-07-20 16:51:38,296 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:51:38,297 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:51:38,297 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:51:38,297 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 16:51:38,297 [INFO] sqlalchemy.engine.Engine: [no key 0.00018s] ()
+2022-07-20 16:51:38,301 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:51:38,302 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:51:38,306 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:51:38,306 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:51:38,306 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:51:38,307 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 16:51:38,307 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:51:38,308 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 16:51:38,308 [INFO] sqlalchemy.engine.Engine: [no key 0.00022s] ()
+2022-07-20 16:51:38,310 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:51:38,313 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:51:38,314 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:51:38,314 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('mysername', 1, 0)
+2022-07-20 16:51:38,318 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:51:38,318 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:51:38,318 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:51:38,318 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 16:51:38,318 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 16:51:38,320 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:51:38,320 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:52:19,661 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:52:19,665 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:52:19,666 [INFO] sqlalchemy.engine.Engine: [generated in 0.00061s] ()
+2022-07-20 16:52:19,907 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 16:52:19,908 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('myserme', b'$2b$12$ZowipdmGNrhQ.m/r.a6krOjBV21SIyrdgw2GWbC2u4nOVTFGevp7K', None, 0, '2022-07-20 20:52:19.906916', 1)
+2022-07-20 16:52:19,908 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:52:19,914 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:52:19,914 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:52:19,914 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:52:19,915 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:52:19,917 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:52:19,919 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:52:19,919 [INFO] sqlalchemy.engine.Engine: [generated in 0.00016s] ('mysername', 1, 0)
+2022-07-20 16:52:19,972 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:53:55,315 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:53:55,319 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:53:55,320 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ()
+2022-07-20 16:53:55,558 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 16:53:55,559 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('myserme', b'$2b$12$fzFYg1M4bHsIHKqage5O1.Juze5g3BKhumzXXYBrTb3J1TWwTt1Wa', None, 0, '2022-07-20 20:53:55.557904', 1)
+2022-07-20 16:53:55,559 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:53:55,570 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:53:55,570 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:53:55,570 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:53:55,570 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 16:53:55,571 [INFO] sqlalchemy.engine.Engine: [no key 0.00014s] ()
+2022-07-20 16:53:55,572 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:53:55,572 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:53:55,573 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:53:55,573 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:53:55,573 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 16:53:55,573 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:53:55,574 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 16:53:55,574 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 16:53:55,575 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:53:55,578 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:53:55,579 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:53:55,579 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('mysername', 1, 0)
+2022-07-20 16:53:55,641 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:58:40,250 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:58:40,254 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:58:40,256 [INFO] sqlalchemy.engine.Engine: [generated in 0.00040s] ()
+2022-07-20 16:58:40,493 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 16:58:40,493 [INFO] sqlalchemy.engine.Engine: [generated in 0.00039s] ('keith', b'$2b$12$57OvO/7Jjg59PxBZHgX7kuSn6j61iaH0B76UqP1rZPL9cn44LYDAO', None, 0, '2022-07-20 20:58:40.491064', 1)
+2022-07-20 16:58:40,494 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:58:40,501 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:58:40,501 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:58:40,501 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:58:40,502 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 16:58:40,502 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 16:58:40,503 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:58:40,503 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:58:40,503 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:58:40,504 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:58:40,504 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 16:58:40,504 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:58:40,505 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 16:58:40,505 [INFO] sqlalchemy.engine.Engine: [no key 0.00025s] ()
+2022-07-20 16:58:40,506 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:58:40,509 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:58:40,511 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:58:40,511 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('keith', 1, 0)
+2022-07-20 16:58:40,569 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 16:59:35,978 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:59:35,984 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 16:59:35,984 [INFO] sqlalchemy.engine.Engine: [generated in 0.00043s] ()
+2022-07-20 16:59:36,223 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 16:59:36,223 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('keith', b'$2b$12$7BhT0iIuYuMuSx3dhxf01.7hzPhIPB33nEAmRu8S031ZWtd5eoDcO', None, 0, '2022-07-20 20:59:36.221966', 1)
+2022-07-20 16:59:36,223 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:59:36,233 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:59:36,234 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 16:59:36,234 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 16:59:36,234 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 16:59:36,237 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 16:59:36,238 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 16:59:36,238 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('keith', 1, 0)
+2022-07-20 16:59:36,468 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 16:59:36,468 [INFO] sqlalchemy.engine.Engine: [generated in 0.00023s] (1, 1)
+2022-07-20 16:59:36,468 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:00:41,807 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:00:41,811 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:00:41,811 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ()
+2022-07-20 17:00:41,813 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:00:41,813 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] ('keith', 1, 0)
+2022-07-20 17:00:41,882 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:00:41,885 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:00:41,885 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:00:41,885 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:00:41,885 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:00:41,888 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:00:41,889 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:00:41,889 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('keith', 1, 0)
+2022-07-20 17:00:42,120 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:01:27,135 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:01:27,140 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:01:27,141 [INFO] sqlalchemy.engine.Engine: [generated in 0.00048s] ()
+2022-07-20 17:01:27,143 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:01:27,143 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ('keith', 1, 0)
+2022-07-20 17:01:27,213 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:01:27,216 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:01:27,216 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:01:27,216 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:01:27,217 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:01:27,219 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:01:27,220 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:01:27,220 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('keith', 1, 0)
+2022-07-20 17:01:27,451 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:02:11,689 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:02:11,694 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:02:11,695 [INFO] sqlalchemy.engine.Engine: [generated in 0.00055s] ()
+2022-07-20 17:02:11,697 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:02:11,697 [INFO] sqlalchemy.engine.Engine: [generated in 0.00033s] ('keith', 1, 0)
+2022-07-20 17:02:11,768 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:02:11,771 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:02:11,772 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:02:11,772 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:02:11,772 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:02:11,774 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:02:11,776 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:02:11,776 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('keith', 1, 0)
+2022-07-20 17:02:12,007 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:04:27,321 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:04:27,326 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:04:27,326 [INFO] sqlalchemy.engine.Engine: [generated in 0.00036s] ()
+2022-07-20 17:04:27,564 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:04:27,564 [INFO] sqlalchemy.engine.Engine: [generated in 0.00030s] ('keith', b'$2b$12$yfg2nev52CKyUhXkTOt9MurMaT0elVcDZn.wcMYzOzkcSEtuIpI8O', None, 0, '2022-07-20 21:04:27.561959', 1)
+2022-07-20 17:04:27,564 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:04:31,308 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:04:31,312 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:04:31,312 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ()
+2022-07-20 17:04:31,549 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:04:31,549 [INFO] sqlalchemy.engine.Engine: [generated in 0.00038s] ('keith', b'$2b$12$wYnGflwqPxV9YWvZA16P9esI1diBfRa4rNrpUvB8ZXdIEr8mDx0uK', None, 0, '2022-07-20 21:04:31.547997', 1)
+2022-07-20 17:04:31,549 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:05:40,669 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:05:40,673 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:05:40,674 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ()
+2022-07-20 17:05:40,909 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:05:40,909 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$j2IqwfLSZ24.Cp9Rc4y/9O5.7SgVf39Nx1v2T2l7Ailt59A7oNH6O', None, 0, '2022-07-20 21:05:40.908163', 1)
+2022-07-20 17:05:40,909 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:10:53,476 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:10:53,481 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:10:53,481 [INFO] sqlalchemy.engine.Engine: [generated in 0.00042s] ()
+2022-07-20 17:10:53,718 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:10:53,718 [INFO] sqlalchemy.engine.Engine: [generated in 0.00033s] ('keith', b'$2b$12$XaWXqMUZ5gtw1RiwgRiICOkzc6X.gp2qga.vUeo6sB/4qLlLl9QLW', None, 0, '2022-07-20 21:10:53.715294', 1)
+2022-07-20 17:10:53,719 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:10:53,727 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:10:53,728 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:10:53,728 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:10:53,728 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:10:53,728 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:10:53,729 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:10:53,730 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:10:53,730 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:10:53,730 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:10:53,730 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:10:53,730 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:10:53,731 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:10:53,731 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:10:53,732 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:10:53,960 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:10:53,961 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:10:53,961 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$bohN34JGNSkrCF/d7S1xAOCeIOLd/ke.WSd4DsRReUdVBBTKyLXeG', None, 0, '2022-07-20 21:10:53.960246', 1)
+2022-07-20 17:10:53,961 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:12:56,058 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:12:56,063 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:12:56,064 [INFO] sqlalchemy.engine.Engine: [generated in 0.00030s] ()
+2022-07-20 17:12:56,301 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:12:56,301 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ('keith', b'$2b$12$8GCo7yK/o37FjlOrIk9cMer9L065x5JAfWo.RlcdYYMiw3Mrf/CrC', None, 0, '2022-07-20 21:12:56.299199', 1)
+2022-07-20 17:12:56,302 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:12:56,311 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:12:56,311 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:12:56,311 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:12:56,311 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:12:56,311 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:12:56,313 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:12:56,313 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:12:56,313 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:12:56,313 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:12:56,313 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:12:56,313 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:12:56,314 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:12:56,314 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:12:56,315 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:12:56,542 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:12:56,543 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:12:56,543 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$P9.P5hzpHcQK3ojb1VhN0OaCiQbRysoI7TrO11vC0LDs2NH.xaIz2', None, 0, '2022-07-20 21:12:56.542153', 1)
+2022-07-20 17:12:56,543 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:12:56,548 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:12:56,549 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:12:56,549 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('testUser', 1, 0)
+2022-07-20 17:12:56,778 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:12:56,778 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:12:56,779 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:13:08,945 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:13:08,950 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:13:08,951 [INFO] sqlalchemy.engine.Engine: [generated in 0.00041s] ()
+2022-07-20 17:13:09,188 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:13:09,189 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$PpvVdru8dijmir.OSuQlFuN0ex0.K9D2CjT78IrNCSQMPBm1SFE1m', None, 0, '2022-07-20 21:13:09.187992', 1)
+2022-07-20 17:13:09,189 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:13:09,198 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:13:09,198 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:13:09,198 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:13:09,198 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:13:09,198 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:13:09,199 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:13:09,200 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:13:09,200 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:13:09,200 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:13:09,200 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:13:09,200 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:13:09,201 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:13:09,201 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:13:09,202 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:13:09,430 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:13:09,430 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:13:09,431 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$f.ySXzt7PwjorZGcfKFip.X/BIgwPNN9iFQFoC1v5.ruCtUHqWdOG', None, 0, '2022-07-20 21:13:09.429893', 1)
+2022-07-20 17:13:09,431 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:13:09,437 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:13:09,438 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:13:09,438 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] ('testUser', 1, 0)
+2022-07-20 17:13:09,669 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:13:09,669 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:13:09,670 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:14:21,019 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:14:21,024 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:14:21,024 [INFO] sqlalchemy.engine.Engine: [generated in 0.00046s] ()
+2022-07-20 17:14:21,267 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:14:21,268 [INFO] sqlalchemy.engine.Engine: [generated in 0.00026s] ('keith', b'$2b$12$ZMEaWSveHP9ggN2Zb.G7OOr.SupLp5KxO4zvixPwYT8Ajedh.XHe.', None, 0, '2022-07-20 21:14:21.266950', 1)
+2022-07-20 17:14:21,268 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:14:21,277 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:14:21,277 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:14:21,277 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:14:21,277 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:14:21,278 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:14:21,279 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:14:21,279 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:14:21,279 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:14:21,279 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:14:21,279 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:14:21,279 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:14:21,280 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:14:21,280 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 17:14:21,281 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:14:21,509 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:14:21,509 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:14:21,509 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$nDSabbT/3jiJbfMTHHi5C.L44.6PffZw7vYKeOJYIo72TDtJrfzgi', None, 0, '2022-07-20 21:14:21.508670', 1)
+2022-07-20 17:14:21,510 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:14:21,517 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:14:21,518 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:14:21,519 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] ('testUser', 1, 0)
+2022-07-20 17:14:21,767 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:14:21,767 [INFO] sqlalchemy.engine.Engine: [generated in 0.00023s] (1, 1)
+2022-07-20 17:14:21,767 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:15:52,083 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:15:52,088 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:15:52,088 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ()
+2022-07-20 17:15:52,326 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:15:52,326 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$FgFYwvicB4YOtK9Ym/7CaexZw0RjpHLSVA.d5eeLBRg5LK7Gei/S.', None, 0, '2022-07-20 21:15:52.325023', 1)
+2022-07-20 17:15:52,326 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:15:52,335 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:15:52,336 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:15:52,336 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:15:52,336 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:15:52,336 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:15:52,337 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:15:52,338 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:15:52,338 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:15:52,338 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:15:52,338 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:15:52,338 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:15:52,339 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:15:52,339 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:15:52,340 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:15:52,568 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:15:52,569 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:15:52,569 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$vzDAwDVUHpcrF2U7hes/uOfqnMyDz.QoUPgjMgCcGta52OAZHzPAi', None, 0, '2022-07-20 21:15:52.568297', 1)
+2022-07-20 17:15:52,569 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:15:52,575 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:15:52,577 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:15:52,577 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('testUser', 1, 0)
+2022-07-20 17:15:52,807 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:15:52,807 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 17:15:52,808 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:17:13,611 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:17:13,615 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:17:13,616 [INFO] sqlalchemy.engine.Engine: [generated in 0.00032s] ()
+2022-07-20 17:17:13,854 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:17:13,854 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$Z.HrYmRWFMj8ihpaE9mjCeWsQL5Gf4jonXut1p72EBwWKcssMBp7y', None, 0, '2022-07-20 21:17:13.853339', 1)
+2022-07-20 17:17:13,855 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:17:13,864 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:17:13,865 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:17:13,865 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:17:13,865 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:17:13,865 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:17:13,867 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:17:13,867 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:17:13,867 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:17:13,867 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:17:13,868 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:17:13,868 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:17:13,869 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:17:13,869 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:17:13,870 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:17:14,099 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:17:14,100 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:17:14,100 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$rFPpagPPPwHGzzD.4QRKzempQzhoH1tA4yHczziJWUOxBC/r55oQu', None, 0, '2022-07-20 21:17:14.099225', 1)
+2022-07-20 17:17:14,100 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:17:14,105 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:17:14,107 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:17:14,107 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('testUser', 1, 0)
+2022-07-20 17:17:14,336 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:17:14,336 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:17:14,337 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:10,338 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:10,343 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:29:10,343 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ()
+2022-07-20 17:29:10,581 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:29:10,582 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('keith', b'$2b$12$fynpC1JtoSvPkfRcnO1XiOPwsdAI/amoVbqeR9GZzfz73BX/MiDYm', None, 0, '2022-07-20 21:29:10.580917', 1)
+2022-07-20 17:29:10,582 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:10,596 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:10,596 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:29:10,596 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:29:10,597 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:29:10,597 [INFO] sqlalchemy.engine.Engine: [no key 0.00016s] ()
+2022-07-20 17:29:10,598 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:10,599 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:10,599 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:29:10,599 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:29:10,599 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:29:10,599 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:29:10,600 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:29:10,600 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 17:29:10,601 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:10,831 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:10,832 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:29:10,832 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$nhjJPMQ1nAnEZFtx50zdCeW59A1oKP1tDz6WSMLQ754GXCvaJEraW', None, 0, '2022-07-20 21:29:10.831288', 1)
+2022-07-20 17:29:10,833 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:10,837 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:10,839 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:29:10,839 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('testUser', 1, 0)
+2022-07-20 17:29:11,068 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:29:11,068 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 17:29:11,068 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:11,074 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:11,074 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:29:11,074 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:29:11,075 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:29:11,075 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:29:11,076 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:11,076 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:11,076 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:29:11,077 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:29:11,077 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:29:11,077 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:29:11,077 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:29:11,077 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:29:11,080 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:29:11,309 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:29:11,309 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:29:11,309 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$cqDXCikYzZ8QVC30/L/gLOgw1VzMUuu9hQdQlxtBTCABegNZ.oNgO', None, 0, '2022-07-20 21:29:11.308719', 1)
+2022-07-20 17:29:11,310 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:00,997 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,002 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:30:01,002 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ()
+2022-07-20 17:30:01,242 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:30:01,242 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('keith', b'$2b$12$USTL.Uq5q3r3sfYY3j2pTOkzwY5pcv71k53UlG5SvkO.TzvahSy72', None, 0, '2022-07-20 21:30:01.241689', 1)
+2022-07-20 17:30:01,243 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:01,250 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,250 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:01,250 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:01,251 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:30:01,251 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:30:01,252 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:01,252 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,252 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:01,252 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:01,253 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:30:01,253 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:01,253 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:30:01,253 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:30:01,254 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:01,486 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,487 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:30:01,487 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$hLIpcXVfL1jKEt3wKrIk2ODrU5YAA5xmVc7OTuDltNCS9fJDvKFZG', None, 0, '2022-07-20 21:30:01.486418', 1)
+2022-07-20 17:30:01,488 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:01,491 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,492 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:30:01,493 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', 1, 0)
+2022-07-20 17:30:01,721 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:30:01,721 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] (1, 1)
+2022-07-20 17:30:01,721 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:01,727 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,727 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:01,728 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:01,728 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:30:01,728 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:30:01,730 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:01,730 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,730 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:01,730 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:01,731 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:30:01,731 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:01,731 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:30:01,732 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:30:01,733 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:01,964 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:01,964 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:30:01,964 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$EKqgLVjr204baY5PpPrGgOX4ZxrT7GJtLdSRpRGqM1mXyWs26CGii', None, 0, '2022-07-20 21:30:01.963735', 1)
+2022-07-20 17:30:01,965 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:32,968 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:32,973 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:30:32,974 [INFO] sqlalchemy.engine.Engine: [generated in 0.00034s] ()
+2022-07-20 17:30:33,212 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:30:33,212 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('keith', b'$2b$12$V6gg5Mn.ZU1cJWq6QLj8AOPwb0jmSbtgl0pQVTO3Uk9k31triyoYW', None, 0, '2022-07-20 21:30:33.211722', 1)
+2022-07-20 17:30:33,213 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:33,221 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:33,222 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:33,222 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:33,222 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:30:33,222 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:30:33,223 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:33,224 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:33,224 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:33,224 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:33,224 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:30:33,224 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:33,225 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:30:33,225 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:30:33,226 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:33,455 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:33,456 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:30:33,456 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$C0rP3jZ0378XMTtuTrm64eywstwRemzGA.uYp8NXjuukY7x46/XPW', None, 0, '2022-07-20 21:30:33.454994', 1)
+2022-07-20 17:30:33,456 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:33,462 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:33,464 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:30:33,464 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ('testUser', 1, 0)
+2022-07-20 17:30:33,696 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:30:33,696 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 17:30:33,697 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:33,703 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:33,703 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:33,703 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:33,704 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:30:33,704 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:30:33,705 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:33,705 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:33,705 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:30:33,705 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:33,705 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:30:33,705 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:30:33,706 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:30:33,706 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:30:33,707 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:30:33,934 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:30:33,935 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:30:33,935 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$Pm9BogmZi6ds4zKYDiOCOOpiENyCLVNuPl3DUXD8a5AcRBqN4BwGO', None, 0, '2022-07-20 21:30:33.934563', 1)
+2022-07-20 17:30:33,936 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:09,383 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:09,388 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:31:09,388 [INFO] sqlalchemy.engine.Engine: [generated in 0.00031s] ()
+2022-07-20 17:31:09,628 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:31:09,628 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$CshjZjFLRFj4EhJXnMem2uUCnmHnwotlY4QdMg8It1Av7Gfeg5VjO', None, 0, '2022-07-20 21:31:09.627207', 1)
+2022-07-20 17:31:09,628 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:09,639 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:09,639 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:09,639 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:09,640 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:31:09,640 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:31:09,641 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:09,642 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:09,642 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:09,642 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:09,642 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:31:09,642 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:09,643 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:31:09,643 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 17:31:09,644 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:09,873 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:09,874 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:31:09,874 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$VFT/hZyDuyAHhP1fhMjMeOYRuQaPPetKOMfH38DMAyFaiEKm4Wkbu', None, 0, '2022-07-20 21:31:09.873128', 1)
+2022-07-20 17:31:09,874 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:09,878 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:09,880 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:31:09,880 [INFO] sqlalchemy.engine.Engine: [generated in 0.00016s] ('testUser', 1, 0)
+2022-07-20 17:31:10,108 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:31:10,108 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 17:31:10,108 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:10,117 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:10,117 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:10,117 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:10,118 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:31:10,118 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:31:10,119 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:10,120 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:10,120 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:10,120 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:10,120 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:31:10,120 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:10,121 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:31:10,121 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:31:10,122 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:10,355 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:10,356 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:31:10,356 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('testUser', b'$2b$12$7tj17D1TVaPu5yF/ml88uuXWndUv4.TPJbFUVakRmbVyOuhbj0yi.', None, 0, '2022-07-20 21:31:10.354896', 1)
+2022-07-20 17:31:10,356 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:10,359 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:10,360 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:31:10,360 [INFO] sqlalchemy.engine.Engine: [generated in 0.00015s] (1, 0)
+2022-07-20 17:31:10,360 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:31:45,711 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:45,716 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:31:45,716 [INFO] sqlalchemy.engine.Engine: [generated in 0.00049s] ()
+2022-07-20 17:31:45,954 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:31:45,955 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('keith', b'$2b$12$fRiafsCouh8uMAU.oERjsedu1roC4iKOLgIFXqc4YYuYhaAeGy0I6', None, 0, '2022-07-20 21:31:45.953816', 1)
+2022-07-20 17:31:45,955 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:45,962 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:45,962 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:45,962 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:45,963 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:31:45,963 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:31:45,964 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:45,965 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:45,965 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:45,965 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:45,965 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:31:45,965 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:45,966 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:31:45,966 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:31:45,967 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:46,200 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:46,200 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:31:46,200 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$W3MDl0Re5n.7zTUUfWFIHOXKootmb/BWpdhY9.b9pgzJPHsfvtvGm', None, 0, '2022-07-20 21:31:46.199643', 1)
+2022-07-20 17:31:46,201 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:46,205 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:46,206 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:31:46,206 [INFO] sqlalchemy.engine.Engine: [generated in 0.00016s] ('testUser', 1, 0)
+2022-07-20 17:31:46,433 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:31:46,433 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:31:46,434 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:46,442 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:46,443 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:46,443 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:46,443 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:31:46,443 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:31:46,445 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:46,445 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:46,445 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:31:46,445 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:46,446 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:31:46,446 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:31:46,447 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:31:46,447 [INFO] sqlalchemy.engine.Engine: [no key 0.00016s] ()
+2022-07-20 17:31:46,448 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:46,676 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:46,677 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:31:46,677 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$b3zKgGb0emELazi/yynkRuXO7Nv3G3lMeodfkzs251j0eHpqz.p8K', None, 0, '2022-07-20 21:31:46.676516', 1)
+2022-07-20 17:31:46,678 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:31:46,681 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:31:46,682 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:31:46,683 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] (1, 0)
+2022-07-20 17:31:46,684 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:34:24,280 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:24,285 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:34:24,286 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ()
+2022-07-20 17:34:24,523 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:34:24,524 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ('keith', b'$2b$12$wOIEMuADmH0Mh48nOa2qb.FHEIWpAm4s/H79X2NstbR9jOI5VOTIa', None, 0, '2022-07-20 21:34:24.521860', 1)
+2022-07-20 17:34:24,524 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:24,532 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:24,532 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:24,532 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:24,532 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:34:24,533 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:34:24,534 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:24,534 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:24,534 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:24,534 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:24,534 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:34:24,535 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:24,535 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:34:24,535 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:34:24,536 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:24,763 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:24,763 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:34:24,764 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$bDOKYqjxdG8PMDhLCmfB9OkSYu3xFC6LpE0XklaPvh8rM.yXHcLfW', None, 0, '2022-07-20 21:34:24.762862', 1)
+2022-07-20 17:34:24,764 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:24,770 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:24,771 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:34:24,771 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] ('testUser', 1, 0)
+2022-07-20 17:34:25,002 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:34:25,002 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:34:25,002 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:25,008 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:25,008 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:25,008 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:25,008 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:34:25,009 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:34:25,010 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:25,010 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:25,010 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:25,010 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:25,010 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:34:25,011 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:25,011 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:34:25,011 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:34:25,012 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:25,240 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:25,246 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:34:25,247 [INFO] sqlalchemy.engine.Engine: [generated in 0.00108s] ('testUser', b'$2b$12$UClrRTzZXoJROPVfw3Qlye547qGcCPh8MBfk/Q7KtNuwF8UjR5j76', None, 0, '2022-07-20 21:34:25.240136', 1)
+2022-07-20 17:34:25,248 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:25,250 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:25,251 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:34:25,251 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] (1, 0)
+2022-07-20 17:34:25,252 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:34:25,254 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:25,255 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 17:34:25,255 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser',)
+2022-07-20 17:34:25,256 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:34:45,437 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:45,441 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:34:45,441 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ()
+2022-07-20 17:34:45,679 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:34:45,679 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$98j8UqyzLqKE/d0Vp/8Su.oSI0Ufa89FybhvO5h6gAkpyMcGuPhUu', None, 0, '2022-07-20 21:34:45.678300', 1)
+2022-07-20 17:34:45,680 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:45,689 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:45,689 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:45,689 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:45,689 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:34:45,689 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:34:45,690 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:45,691 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:45,691 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:45,691 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:45,691 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:34:45,691 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:45,692 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:34:45,692 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:34:45,693 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:45,924 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:45,925 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:34:45,925 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$/rLWy/a2eRroVnW7Bib33eYeNU9Qm420B77EEkZ3K4ayZMf5l04Gm', None, 0, '2022-07-20 21:34:45.924017', 1)
+2022-07-20 17:34:45,925 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:45,932 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:45,934 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:34:45,934 [INFO] sqlalchemy.engine.Engine: [generated in 0.00023s] ('testUser', 1, 0)
+2022-07-20 17:34:46,164 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:34:46,164 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:34:46,165 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:46,173 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:46,174 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:46,174 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:46,174 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:34:46,174 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:34:46,176 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:46,176 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:46,176 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:34:46,176 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:46,177 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:34:46,177 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:34:46,177 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:34:46,177 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 17:34:46,178 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:46,411 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:46,411 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:34:46,411 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$UnfykghVPIrMYYyI9l83j.kBrR2UWPcA6XK3Qpq3U/BhDK0Stp/ky', None, 0, '2022-07-20 21:34:46.410784', 1)
+2022-07-20 17:34:46,412 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:34:46,415 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:46,416 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:34:46,417 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] (1, 0)
+2022-07-20 17:34:46,418 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:34:46,421 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:34:46,422 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 17:34:46,422 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('testUser',)
+2022-07-20 17:34:46,423 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:35:00,816 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:00,820 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:35:00,820 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ()
+2022-07-20 17:35:01,056 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:35:01,056 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$SqDG0jxMzXqP7Xyqwj2NHeIfBM5cBXYEOJMdnONiKhso1Tcet6Gym', None, 0, '2022-07-20 21:35:01.055112', 1)
+2022-07-20 17:35:01,056 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,065 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,065 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:35:01,065 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:35:01,065 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:35:01,065 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:35:01,066 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,067 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,067 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:35:01,067 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:35:01,067 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:35:01,067 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:35:01,068 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:35:01,068 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:35:01,069 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,296 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,297 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:35:01,297 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$iEVtJzNKaXP6Nq6nimeE5uLbav.pdPj9fZAhh6a7tVO/.8x5QBk6a', None, 0, '2022-07-20 21:35:01.296404', 1)
+2022-07-20 17:35:01,298 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,304 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,306 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:35:01,306 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('testUser', 1, 0)
+2022-07-20 17:35:01,536 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:35:01,536 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:35:01,536 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,541 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,541 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:35:01,541 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:35:01,542 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:35:01,542 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:35:01,543 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,543 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,543 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:35:01,543 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:35:01,544 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:35:01,544 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:35:01,544 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:35:01,544 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:35:01,545 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,773 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,773 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:35:01,773 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$AsW6NtoJhfyOwWvVUPeJZe2FJSs8xJDYXqXL6K22Td5ErElPn9hny', None, 0, '2022-07-20 21:35:01.772660', 1)
+2022-07-20 17:35:01,774 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:35:01,777 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,779 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:35:01,779 [INFO] sqlalchemy.engine.Engine: [generated in 0.00026s] (1, 0)
+2022-07-20 17:35:01,780 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:35:01,784 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:35:01,785 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 17:35:01,785 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('testUser',)
+2022-07-20 17:35:01,786 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:37:29,649 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:29,655 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:37:29,655 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ()
+2022-07-20 17:37:29,894 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:37:29,894 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$xtR5JGZJ4G6a29b2Yg4u/uZTP0nXEo3h6uGQ5qS1yDqV0SagWVlHC', None, 0, '2022-07-20 21:37:29.893298', 1)
+2022-07-20 17:37:29,895 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:29,903 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:29,903 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:37:29,903 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:37:29,904 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:37:29,904 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:37:29,905 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:29,905 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:29,906 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:37:29,906 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:37:29,906 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:37:29,906 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:37:29,906 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:37:29,907 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:37:29,912 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:30,145 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:30,146 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:37:30,146 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$jVjmseWT0KdlqMDLuqRSeO1LW.7l3bpJpo9eNp/afBgOrvaQLqXty', None, 0, '2022-07-20 21:37:30.145140', 1)
+2022-07-20 17:37:30,146 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:30,150 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:30,151 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:37:30,152 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', 1, 0)
+2022-07-20 17:37:30,382 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:37:30,382 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 17:37:30,383 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:30,394 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:30,394 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:37:30,394 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:37:30,395 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:37:30,395 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:37:30,396 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:30,397 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:30,397 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:37:30,397 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:37:30,397 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:37:30,397 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:37:30,398 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:37:30,398 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 17:37:30,399 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:30,629 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:30,629 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:37:30,629 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$1HPwrnyyK/79lxlrO6youuDYYj3Cu3iDbxyTwaFo4OgPrzkdBQggG', None, 0, '2022-07-20 21:37:30.628746', 1)
+2022-07-20 17:37:30,630 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:37:30,633 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:30,634 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:37:30,634 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 0)
+2022-07-20 17:37:30,635 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:37:30,638 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:37:30,638 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 17:37:30,638 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser',)
+2022-07-20 17:37:30,640 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:44:25,302 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:25,308 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:44:25,309 [INFO] sqlalchemy.engine.Engine: [generated in 0.00034s] ()
+2022-07-20 17:44:25,544 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:44:25,544 [INFO] sqlalchemy.engine.Engine: [generated in 0.00040s] ('keith', b'$2b$12$fphTUKbq2QwaUeezY..tqe9k3log/FiJlb4AIrbO1.3WIW0KL1AUS', None, 0, '2022-07-20 21:44:25.542159', 1)
+2022-07-20 17:44:25,545 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:25,555 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:25,556 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:25,556 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:25,556 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:44:25,556 [INFO] sqlalchemy.engine.Engine: [no key 0.00016s] ()
+2022-07-20 17:44:25,557 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:25,558 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:25,558 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:25,558 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:25,558 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:44:25,559 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:25,559 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:44:25,559 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 17:44:25,560 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:25,789 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:25,789 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:44:25,790 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$yqNPh7je9eOWW0uBbCCGBO9Dr9wD98aZhk7MBPmw7UK4uVNh8MdKS', None, 0, '2022-07-20 21:44:25.788894', 1)
+2022-07-20 17:44:25,790 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:25,796 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:25,797 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:44:25,797 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('testUser', 1, 0)
+2022-07-20 17:44:26,027 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:44:26,028 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 17:44:26,028 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:26,033 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:26,033 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:26,033 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:26,034 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:44:26,034 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:44:26,035 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:26,035 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:26,036 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:26,036 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:26,036 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:44:26,036 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:26,036 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:44:26,036 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:44:26,037 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:26,265 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:26,265 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:44:26,265 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$1CtPZAce6mWnqjnp3BEq2uAXM2YTk.ecTLaXigMSquFpNs8aU27WO', None, 0, '2022-07-20 21:44:26.264624', 1)
+2022-07-20 17:44:26,266 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:26,269 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:26,270 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:44:26,271 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] (1, 0)
+2022-07-20 17:44:26,272 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:44:54,421 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:54,427 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:44:54,427 [INFO] sqlalchemy.engine.Engine: [generated in 0.00031s] ()
+2022-07-20 17:44:54,662 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:44:54,662 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$xW7gIrr7EJCm0Qi8yqX9Merdu6emCRQ8CrKsVPqWhRgitVqmOM0Wi', None, 0, '2022-07-20 21:44:54.661331', 1)
+2022-07-20 17:44:54,663 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:54,671 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:54,671 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:54,671 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:54,672 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:44:54,672 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:44:54,673 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:54,673 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:54,673 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:54,673 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:54,674 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:44:54,674 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:54,674 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:44:54,674 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:44:54,675 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:54,903 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:54,903 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:44:54,904 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$0rdKNIXJEaFUm4o6meSzb.lIWZNIxWA2jRzUOGwajh6GFco1zDipi', None, 0, '2022-07-20 21:44:54.902972', 1)
+2022-07-20 17:44:54,904 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:54,911 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:54,913 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:44:54,913 [INFO] sqlalchemy.engine.Engine: [generated in 0.00028s] ('testUser', 1, 0)
+2022-07-20 17:44:55,143 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:44:55,143 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 17:44:55,143 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:55,148 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:55,148 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:55,149 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:55,149 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:44:55,149 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:44:55,150 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:55,150 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:55,151 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:44:55,151 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:55,151 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:44:55,151 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:44:55,151 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:44:55,152 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:44:55,152 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:55,380 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:55,380 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:44:55,381 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$H0vltTGq2zBidFnuFi30q.T5eQBa.bYy4M9nuUBIlzC89dELkN2E6', None, 0, '2022-07-20 21:44:55.379970', 1)
+2022-07-20 17:44:55,381 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:44:55,384 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:44:55,385 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:44:55,385 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] (1, 0)
+2022-07-20 17:44:55,386 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:45:46,350 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:46,354 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 17:45:46,354 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ()
+2022-07-20 17:45:46,590 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:45:46,591 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('keith', b'$2b$12$CnbdHpMgV8mr4k1OVGu1X.wPh0MX4N7rHFR1XRUYsC4XM4cuafqJu', None, 0, '2022-07-20 21:45:46.589868', 1)
+2022-07-20 17:45:46,591 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:46,600 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:46,600 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:45:46,600 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:45:46,601 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:45:46,601 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:45:46,602 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:46,602 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:46,602 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:45:46,602 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:45:46,603 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:45:46,603 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:45:46,603 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:45:46,603 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 17:45:46,604 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:46,831 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:46,832 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:45:46,832 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$yxvOJ66woBgUFf.FOKIl8OkCXDfM1XDS0.HSEQhGCe3jNAFEuEmsS', None, 0, '2022-07-20 21:45:46.831553', 1)
+2022-07-20 17:45:46,833 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:46,837 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:46,838 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 17:45:46,838 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', 1, 0)
+2022-07-20 17:45:47,066 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 17:45:47,066 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 17:45:47,067 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:47,071 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:47,071 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:45:47,071 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:45:47,072 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 17:45:47,072 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 17:45:47,073 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:47,073 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:47,073 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 17:45:47,073 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:45:47,073 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 17:45:47,073 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 17:45:47,074 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 17:45:47,074 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 17:45:47,075 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:47,303 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:47,303 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 17:45:47,304 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$5O4hwdNzU8lWXENa2lnmv.KgT5cqn3Ma1R0RU.ujX865NR0QEj...', None, 0, '2022-07-20 21:45:47.302908', 1)
+2022-07-20 17:45:47,304 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 17:45:47,307 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:47,309 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 17:45:47,309 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 0)
+2022-07-20 17:45:47,309 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 17:45:47,313 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 17:45:47,313 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 17:45:47,314 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('testUser',)
+2022-07-20 17:45:47,315 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:00:48,391 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:48,394 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 18:00:48,395 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ()
+2022-07-20 18:00:48,635 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:00:48,635 [INFO] sqlalchemy.engine.Engine: [generated in 0.00026s] ('keith', b'$2b$12$L7kmYcxK8/T9R93Y8myeWu4K8V.y5A6Lwo5/zumqH4Li6W.4EcPSW', None, 0, '2022-07-20 22:00:48.634240', 1)
+2022-07-20 18:00:48,636 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:48,643 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:48,643 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:00:48,644 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:00:48,644 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:00:48,644 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 18:00:48,645 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:48,645 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:48,645 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:00:48,646 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:00:48,646 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:00:48,646 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:00:48,646 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:00:48,646 [INFO] sqlalchemy.engine.Engine: [no key 0.00018s] ()
+2022-07-20 18:00:48,647 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:48,878 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:48,879 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:00:48,879 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('testUser', b'$2b$12$LcGWE5bAn/VlNC9cWm5ymur3lzTn3gE9PcVui.k8XexrIcX0PLsQe', None, 0, '2022-07-20 22:00:48.878112', 1)
+2022-07-20 18:00:48,879 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:48,886 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:48,887 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 18:00:48,887 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('testUser', 1, 0)
+2022-07-20 18:00:49,118 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 18:00:49,118 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 18:00:49,119 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:49,125 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:49,125 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:00:49,125 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:00:49,125 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:00:49,125 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 18:00:49,126 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:49,127 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:49,127 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:00:49,127 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:00:49,127 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:00:49,127 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:00:49,128 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:00:49,128 [INFO] sqlalchemy.engine.Engine: [no key 0.00012s] ()
+2022-07-20 18:00:49,129 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:49,357 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:49,358 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:00:49,358 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$m76sTdhZRcVilmcjpg9Yoe905XUiG0izDMoTr0iD8fM24RAWpphHa', None, 0, '2022-07-20 22:00:49.356995', 1)
+2022-07-20 18:00:49,358 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:00:49,361 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:49,361 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 18:00:49,361 [INFO] sqlalchemy.engine.Engine: [generated in 0.00015s] (1, 0)
+2022-07-20 18:00:49,362 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:00:49,364 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:00:49,365 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 18:00:49,365 [INFO] sqlalchemy.engine.Engine: [generated in 0.00019s] ('testUser',)
+2022-07-20 18:00:49,366 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:05:03,802 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:03,807 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 18:05:03,808 [INFO] sqlalchemy.engine.Engine: [generated in 0.00026s] ()
+2022-07-20 18:05:04,045 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:05:04,045 [INFO] sqlalchemy.engine.Engine: [generated in 0.00050s] ('keith', b'$2b$12$0lx/F3.5YTzq5dX5N.zGpORVP/c3wGSrdkbgkBO.x.Vr5PsBa4nTC', None, 0, '2022-07-20 22:05:04.042310', 1)
+2022-07-20 18:05:04,046 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,057 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,057 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:05:04,057 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:05:04,058 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:05:04,058 [INFO] sqlalchemy.engine.Engine: [no key 0.00018s] ()
+2022-07-20 18:05:04,059 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,059 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,059 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:05:04,059 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:05:04,060 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:05:04,060 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:05:04,060 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:05:04,061 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 18:05:04,062 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,294 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,294 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:05:04,294 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$4xrjdv5EtRwc2AVBuTKaheD04rf1BlBoKPxDca.c5.dX5nEXknCyu', None, 0, '2022-07-20 22:05:04.293796', 1)
+2022-07-20 18:05:04,295 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,302 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,304 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 18:05:04,304 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('testUser', 1, 0)
+2022-07-20 18:05:04,534 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 18:05:04,534 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 18:05:04,535 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,542 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,542 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:05:04,543 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:05:04,543 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:05:04,543 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 18:05:04,544 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,544 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,544 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:05:04,545 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:05:04,545 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:05:04,545 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:05:04,545 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:05:04,546 [INFO] sqlalchemy.engine.Engine: [no key 0.00017s] ()
+2022-07-20 18:05:04,547 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,774 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,775 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:05:04,775 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$HN9EBiCUtYQJLMhBoboceupHjyXRGssNiSzuEkmldbY7y2sRiZygK', None, 0, '2022-07-20 22:05:04.774132', 1)
+2022-07-20 18:05:04,775 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:05:04,779 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,780 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 18:05:04,780 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] (1, 0)
+2022-07-20 18:05:04,781 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:05:04,784 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:05:04,785 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 18:05:04,785 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('testUser',)
+2022-07-20 18:05:04,787 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:14:57,045 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:57,050 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 18:14:57,050 [INFO] sqlalchemy.engine.Engine: [generated in 0.00040s] ()
+2022-07-20 18:14:57,286 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:14:57,287 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ('keith', b'$2b$12$uSxHnuHQS/N4p63OtAKUreLs31b/GWg9WCel7H4FoXf7BtL9gW7jG', None, 0, '2022-07-20 22:14:57.284860', 1)
+2022-07-20 18:14:57,287 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:57,294 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:57,294 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:14:57,295 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:14:57,295 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:14:57,295 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 18:14:57,296 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:57,297 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:57,297 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:14:57,297 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:14:57,297 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:14:57,297 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:14:57,298 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:14:57,298 [INFO] sqlalchemy.engine.Engine: [no key 0.00011s] ()
+2022-07-20 18:14:57,299 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:57,527 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:57,527 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:14:57,527 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$HcWsmHsdIV1oI3FMBYzBN.e3jyq/FrYILaJ2A00H/wKzy.ATH.gWq', None, 0, '2022-07-20 22:14:57.526786', 1)
+2022-07-20 18:14:57,528 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:57,532 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:57,533 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 18:14:57,534 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', 1, 0)
+2022-07-20 18:14:57,762 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 18:14:57,762 [INFO] sqlalchemy.engine.Engine: [generated in 0.00021s] (1, 1)
+2022-07-20 18:14:57,762 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:57,768 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:57,768 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:14:57,768 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:14:57,769 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:14:57,769 [INFO] sqlalchemy.engine.Engine: [no key 0.00013s] ()
+2022-07-20 18:14:57,770 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:57,770 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:57,770 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:14:57,771 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:14:57,771 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:14:57,771 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:14:57,772 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:14:57,772 [INFO] sqlalchemy.engine.Engine: [no key 0.00014s] ()
+2022-07-20 18:14:57,773 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:58,000 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:58,001 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:14:58,001 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$qT0wHiNsOrhg/SMfqpzrv.yFIbBLPFcl8hfMaI4zq9JHug3zN0Fki', None, 0, '2022-07-20 22:14:58.000401', 1)
+2022-07-20 18:14:58,002 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:14:58,004 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:58,005 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 18:14:58,005 [INFO] sqlalchemy.engine.Engine: [generated in 0.00015s] (1, 0)
+2022-07-20 18:14:58,005 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:14:58,008 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:14:58,008 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 18:14:58,008 [INFO] sqlalchemy.engine.Engine: [generated in 0.00013s] ('testUser',)
+2022-07-20 18:14:58,009 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:42:05,183 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:05,188 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-20 18:42:05,188 [INFO] sqlalchemy.engine.Engine: [generated in 0.00029s] ()
+2022-07-20 18:42:05,425 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:42:05,425 [INFO] sqlalchemy.engine.Engine: [generated in 0.00025s] ('keith', b'$2b$12$YKUOE16ODpatswadWHjqKuBpfjRRRE3yRHRXJ0h1.spK76c4Ti5KK', None, 0, '2022-07-20 22:42:05.424632', 1)
+2022-07-20 18:42:05,426 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:05,436 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:05,436 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:42:05,436 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:42:05,437 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:42:05,437 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-20 18:42:05,438 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:05,438 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:05,438 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:42:05,438 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:42:05,439 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:42:05,439 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:42:05,439 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:42:05,439 [INFO] sqlalchemy.engine.Engine: [no key 0.00014s] ()
+2022-07-20 18:42:05,440 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:05,669 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:05,669 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:42:05,669 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$9944oI.u6lAsX3MOhrTItu7GB4BktoYxnekyHloy7RFldIljIRiRy', None, 0, '2022-07-20 22:42:05.668822', 1)
+2022-07-20 18:42:05,670 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:05,678 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:05,680 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-20 18:42:05,680 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] ('testUser', 1, 0)
+2022-07-20 18:42:05,910 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-20 18:42:05,910 [INFO] sqlalchemy.engine.Engine: [generated in 0.00022s] (1, 1)
+2022-07-20 18:42:05,911 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:05,916 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:05,916 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:42:05,916 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:42:05,916 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-20 18:42:05,916 [INFO] sqlalchemy.engine.Engine: [no key 0.00010s] ()
+2022-07-20 18:42:05,918 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:05,919 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:05,919 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-20 18:42:05,919 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:42:05,920 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-20 18:42:05,920 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-20 18:42:05,921 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-20 18:42:05,921 [INFO] sqlalchemy.engine.Engine: [no key 0.00014s] ()
+2022-07-20 18:42:05,922 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:06,150 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:06,151 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-20 18:42:06,151 [INFO] sqlalchemy.engine.Engine: [generated in 0.00017s] ('testUser', b'$2b$12$nxnxbJfHn7mr4v39mkAgPegoAJYwPkj9KFKvttQouVjPLNwG9y7d.', None, 0, '2022-07-20 22:42:06.150250', 1)
+2022-07-20 18:42:06,151 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-20 18:42:06,154 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:06,155 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-20 18:42:06,155 [INFO] sqlalchemy.engine.Engine: [generated in 0.00016s] (1, 0)
+2022-07-20 18:42:06,155 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-20 18:42:06,158 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-20 18:42:06,158 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-20 18:42:06,158 [INFO] sqlalchemy.engine.Engine: [generated in 0.00014s] ('testUser',)
+2022-07-20 18:42:06,159 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-21 13:17:30,594 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:30,599 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-07-21 13:17:30,599 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ()
+2022-07-21 13:17:30,845 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-21 13:17:30,846 [INFO] sqlalchemy.engine.Engine: [generated in 0.00027s] ('keith', b'$2b$12$HWXs6u3ntBbzltjg7o8n6OX8ictX13.SIM3aKlRCYdET81UD9kVw6', None, 0, '2022-07-21 17:17:30.844774', 1)
+2022-07-21 13:17:30,846 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:30,861 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:30,861 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-21 13:17:30,861 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-21 13:17:30,862 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-21 13:17:30,862 [INFO] sqlalchemy.engine.Engine: [no key 0.00016s] ()
+2022-07-21 13:17:30,864 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:30,864 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:30,864 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-21 13:17:30,864 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-21 13:17:30,865 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-21 13:17:30,865 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-21 13:17:30,866 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-21 13:17:30,866 [INFO] sqlalchemy.engine.Engine: [no key 0.00015s] ()
+2022-07-21 13:17:30,867 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:31,110 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:31,111 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-21 13:17:31,111 [INFO] sqlalchemy.engine.Engine: [generated in 0.00018s] ('testUser', b'$2b$12$j2dOyuoBDeNuaqbzWNRD5e3vwyvXj.W/1J62QZ6Aj5Obp8/1EuBza', None, 0, '2022-07-21 17:17:31.109985', 1)
+2022-07-21 13:17:31,111 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:31,119 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:31,120 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+ LIMIT ? OFFSET ?
+2022-07-21 13:17:31,120 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] ('testUser', 1, 0)
+2022-07-21 13:17:31,362 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-07-21 13:17:31,363 [INFO] sqlalchemy.engine.Engine: [generated in 0.00051s] (1, 1)
+2022-07-21 13:17:31,364 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:31,369 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:31,370 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-21 13:17:31,371 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-21 13:17:31,372 [INFO] sqlalchemy.engine.Engine: 
+DROP TABLE users
+2022-07-21 13:17:31,372 [INFO] sqlalchemy.engine.Engine: [no key 0.00024s] ()
+2022-07-21 13:17:31,374 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:31,374 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:31,374 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-07-21 13:17:31,374 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-21 13:17:31,375 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-07-21 13:17:31,375 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-07-21 13:17:31,376 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (username)
+)
+
+
+2022-07-21 13:17:31,376 [INFO] sqlalchemy.engine.Engine: [no key 0.00019s] ()
+2022-07-21 13:17:31,377 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:31,633 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:31,634 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (username, password, about, authenticated, registered_on, is_admin) VALUES (?, ?, ?, ?, ?, ?)
+2022-07-21 13:17:31,634 [INFO] sqlalchemy.engine.Engine: [generated in 0.00024s] ('testUser', b'$2b$12$hMlaOopDnon15qb7svlWFe20JFlFx.9q6NHtcEXuWYKZTXPeND2tC', None, 0, '2022-07-21 17:17:31.633103', 1)
+2022-07-21 13:17:31,635 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-07-21 13:17:31,636 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:31,637 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users
+ LIMIT ? OFFSET ?
+2022-07-21 13:17:31,637 [INFO] sqlalchemy.engine.Engine: [generated in 0.00020s] (1, 0)
+2022-07-21 13:17:31,638 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-07-21 13:17:31,641 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-07-21 13:17:31,641 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.username AS users_username, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.username = ?
+2022-07-21 13:17:31,641 [INFO] sqlalchemy.engine.Engine: [generated in 0.00016s] ('testUser',)
+2022-07-21 13:17:31,643 [INFO] sqlalchemy.engine.Engine: ROLLBACK
